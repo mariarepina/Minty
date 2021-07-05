@@ -1,0 +1,48 @@
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  
+ 
+}
+
+.header-background {
+  background-color: black;
+  
+  display: flex;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  background-color: black;
+}
+
+.nav-item-left {
+margin-left: 60px;
+}
+
+
+.nav-item-right {
+  margin-right: 60px;
+}
+  
+.main-item {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nav-link {
+  color:white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #08e8de; 
+  font-weight: bold;
+ }
